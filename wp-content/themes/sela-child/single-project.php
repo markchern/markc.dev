@@ -22,9 +22,9 @@ get_header(); ?>
 
 				<?php get_template_part( 'content', get_post_format() ); ?>
 				<?php 
-				echo types_render_field("client-date", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
-				echo types_render_field("client-image", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
-				echo types_render_field("client-video", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+				echo types_render_field("project-date", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+				echo types_render_field("project-image", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+				echo types_render_field("project-video", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
 					?>
 				<?php sela_post_nav(); ?>
 
