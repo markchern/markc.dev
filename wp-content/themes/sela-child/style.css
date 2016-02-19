@@ -15,3 +15,25 @@
 .teal {
 	background-color: teal;
 }
+
+.main-navigation {
+	background-color: #83dbce;
+}
+
+a {
+	color: #63c6b7;
+	text-decoration: none;
+}
+
+.footer-widget-area a:hover {
+	color: #63c6b7;
+}
+
+.entry-title a:hover {
+	color: #63c6b7;
+}
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul > li.focus > a {
+	color: #63c6b7;
+}
