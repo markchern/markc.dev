@@ -17,23 +17,29 @@
 }
 
 .main-navigation {
-	background-color: #83dbce;
+	background-color: #db8174;
 }
 
 a {
-	color: #63c6b7;
+	color: #bf6f65;
 	text-decoration: none;
 }
 
 .footer-widget-area a:hover {
-	color: #63c6b7;
+	color: #bf6f65;
 }
 
 .entry-title a:hover {
-	color: #63c6b7;
+	color: #bf6f65;
 }
 
 .main-navigation ul ul a:hover,
 .main-navigation ul ul > li.focus > a {
-	color: #63c6b7;
+	color: #bf6f65;
 }
+
+.nav-menu > li > a:after {
+	color: #bf6f65;
+	content: " \2022";
+	margin-left: 1em;
+	}
