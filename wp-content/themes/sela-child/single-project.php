@@ -15,6 +15,11 @@ get_header(); ?>
 			<?php if( 'jetpack-testimonial' === get_post_type() ): ?>
 
 				<?php get_template_part( 'content', 'testimonial' ); ?>
+				<?php echo types_render_field("project-image", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?>
+				<br>
+				<?php echo types_render_field("project-video", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?>
+				<br>
+				<?php echo types_render_field("project-date", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?>
 
 				<?php sela_post_nav(); ?>
 
