@@ -43,3 +43,12 @@ a {
 	content: " \2022";
 	margin-left: 1em;
 	}
+
+.entry-title {
+	color: #bf6f65;
+}
+
+.what{
+	color: #ffffff;
+	background-color: #000000;
+}

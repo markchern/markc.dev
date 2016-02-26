@@ -8,7 +8,7 @@
 
 	<?php sela_post_thumbnail(); ?>
 
-	<header class="entry-header ">
+	<header class="entry-header">
 		<?php if ( is_single() ) : ?>
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php else : ?>
@@ -16,7 +16,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-body">
+	<div class="what entry-body">
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
