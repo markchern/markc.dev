@@ -48,6 +48,14 @@ a {
 	color: #bf6f65;
 }
 
+.entry-content{
+	color: purple;
+}
+
+.entry-header{
+	color: yellow;
+}
+
 .what{
 	color: #ffffff;
 	background-color: #000000;
