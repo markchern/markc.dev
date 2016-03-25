@@ -21,9 +21,7 @@
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'sela' ), 'sela', '<a href="http://wordpress.com/themes/sela/" rel="designer">WordPress.com</a>' ); ?>
 		</div><!-- .site-info -->
 
-		<?php wp_nav_menu( array( 
-			'theme_location' => 'register_mark_menu',
-		    'container_class' =? mark_menu_class') ); ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'register_mark_menu' ) ); ?>
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->
