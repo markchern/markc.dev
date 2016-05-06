@@ -12,51 +12,43 @@
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
-.teal {
-	background-color: teal;
-}
-
 .main-navigation {
-	background-color: #db8174;
+	background-color: #71d6cf;
 }
 
 a {
-	color: #bf6f65;
+	color: #71d6cf;
 	text-decoration: none;
 }
 
 .footer-widget-area a:hover {
-	color: #bf6f65;
+	color: #71d6cf;
 }
 
 .entry-title a:hover {
-	color: #bf6f65;
+	color: #71d6cf;
 }
 
 .main-navigation ul ul a:hover,
 .main-navigation ul ul > li.focus > a {
-	color: #bf6f65;
+	color: #71d6cf;
 }
 
 .nav-menu > li > a:after {
-	color: #bf6f65;
+	color: #fff;
 	content: " \2022";
 	margin-left: 1em;
 	}
 
 .entry-title {
-	color: blue;
+	color: #71d6cf;
+	font-weight: bold;
 }
 
 .entry-content{
-	color: purple;
+	color: gray;
 }
 
-.entry-header{
-	background-color: yellow;
-}
-
-.what{
-	color: #ffffff;
-	background-color: #000000;
+.comment-meta a {
+	color:#71d6cf;
 }
